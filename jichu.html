@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>匿名函数</title>
+    <style>
+        #dayinxx {
+            margin-top: 20px;
+            color: plum;
+        }
+    </style>
+    <script>
+        window.onload=function(){
+            document.getElementById("dayinxx").onclick=function(){
+                for(var i=0;i<5;i++){
+                    document.write("*");
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+        <input type="button" id="dayinxx" value="点我打印星星" >
+</body>
+</html>
